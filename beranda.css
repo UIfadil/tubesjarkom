@@ -1,0 +1,72 @@
+*,
+html{
+    margin:0;
+    padding:0;
+}
+.body{
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_2t/14786.jpg);
+    width: 100%;
+    background-position: center;
+    min-height: 100ph;
+    background-size: cover;
+}
+.ul-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 2%;
+}
+.li-navbar{
+    display: flex;
+    justify-content: center;
+    list-style-type: none; 
+    color: rgb(255, 255, 255);
+    padding: 25px
+}
+.h1-nama{
+    color: rgb(0, 120, 168);
+    margin-left: 5%;
+    font-size: 400%;
+}
+.li-nama{
+    color: rgb(85, 85, 85);
+    list-style-type: none;
+    font-size: 130%;
+    margin-left: 5%;
+}
+.img{
+    position: absolute;
+    margin-left: 70%;
+    top: 0;
+}
+.div-content{
+    margin-top: 10%;
+    border: 3px solid white;
+    background-color: white;
+    padding:60px;
+}
+.ul-contact{
+    font-size: 18;
+}
+.ul-contact2{
+    font-size: 18;
+}
+.a-materi{
+    text-decoration: none;
+    color: white;
+}
+.a-materi:hover{
+    background-color: rgb(127, 227, 255);
+    transition: .3s ease-in-out;
+    border-radius: 4px;
+}
+.a-ig{
+    text-decoration: none;
+    color: black;
+}
+.a-ig:hover{
+    background-color: rgb(202, 202, 202);
+    transition: .3s ease-in-out;
+    border-radius: 8px;
+}

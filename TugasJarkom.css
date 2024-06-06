@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.materi {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 22;
+}
+.a:hover{
+    background-color: rgb(127, 227, 255);
+    transition: .3s ease-in-out;
+    border-radius: 8px;
+}
+.h1materi {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+.h2materi {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #00509e;
+    text-align: center;
+}
+
+.description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.device {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.device-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+.img {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 25%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.ulfungsi1,
+.uljenis1 {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ulfungsi1 li,
+.uljenis1 li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.uljenis1 {
+    margin-top: 10px;
+}
+
+.li-jenis1 {
+    margin-left: 20px
+}
